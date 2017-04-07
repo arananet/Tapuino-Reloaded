@@ -8,7 +8,7 @@ This new version has completely reworked with smd components. Also change the di
 
 <img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/tapuinoreloaded.png?raw=true" width="700">
 
-<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/tapuinoreloadedreal.png?raw=true" width="700">
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/tapuinoreloadedreal.jpg?raw=true" width="700">
 
 # Bill of materials
 
