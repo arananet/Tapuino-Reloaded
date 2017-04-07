@@ -10,6 +10,15 @@ This new version has completely reworked with smd components. Also change the di
 
 <img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/TapuinoReloadedreal.jpg?raw=true" width="700">
 
+# Instructions
+ 
+1. Download the official Tapuino code from the Peter Edwards repository https://github.com/sweetlilmre/tapuino 
+2. Set the display hardware address on the config-user.h depending on what kind of display have. If does not work, use a i2c scanner in order to get the exact hardware address from the display.
+3. Use a serial TTL programmer and the Arduino IDE to upload the code into the ATMEGA.
+4. Plug an MicroSD card with all the taps and enjoy the power of the Tapuino!
+
+ 
+
 # Bill of materials
 
 | Part          | Value                   | Package                        |
@@ -49,4 +58,3 @@ This new version has completely reworked with smd components. Also change the di
 | SELECT1       | PUSH BUTTON             | RIGHT ANGLE PUSH BUTTON        |
 | SD1           | TF-HOLDER               | TF-PULL                        |
 
-Download the official Tapuino code from the Peter Edwards repository https://github.com/sweetlilmre/tapuino and use a serial TTL programmer and the Arduino IDE to upload the code into the ATMEGA. 
