@@ -1,6 +1,6 @@
 # Tapuino-Reloaded
 
-By @edu_arana in collaboration with @groovydrifter & @jgilcas.
+By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the original design of Peter Edwards.
 
 This new version has completely reworked with smd components. Also change the distribution and connection orientation. Now, you just plug the Tapuino Reloaded on the back of your C64 (Breadbox & C) and that's it. This design also allows to use every type of i2c LCD or OLED Screen, by soldering a 1x4 row pin and taking out the lcd to a better viewable area, for example on computers like the Commodore PET.
 
