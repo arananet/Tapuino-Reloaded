@@ -47,3 +47,4 @@ This new version has completely reworked with smd components. Also change the di
 | SELECT1       | PUSH BUTTON             | RIGHT ANGLE PUSH BUTTON        |
 | SD1           | TF-HOLDER               | TF-PULL                        |
 
+Download the official Tapuino code from the Peter Edwards repository https://github.com/sweetlilmre/tapuino and use a serial TTL programmer and the Arduino IDE to upload the code into the ATMEGA. 
