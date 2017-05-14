@@ -59,4 +59,4 @@ This new version has completely reworked with smd components. Also change the di
 | SD1           | TF-HOLDER               | TF-PULL                        |
 
 # Changes
-v1.1 Fixed drill holes on the gerbers files because some gerber viewers do not shows correctly.
+v1.1 Fixed drill holes on the gerbers files because some gerber viewers do not show them correctly.
