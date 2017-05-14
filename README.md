@@ -58,3 +58,5 @@ This new version has completely reworked with smd components. Also change the di
 | SELECT1       | PUSH BUTTON             | RIGHT ANGLE PUSH BUTTON        |
 | SD1           | TF-HOLDER               | TF-PULL                        |
 
+# Changes
+v1.1 Fixed drill holes on the gerbers files because some gerber viewers do not shows correctly.
