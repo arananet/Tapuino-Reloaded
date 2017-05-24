@@ -17,6 +17,8 @@ This new version has completely reworked with smd components. Also change the di
 3. Use a serial TTL programmer and the Arduino IDE to upload the code into the ATMEGA.
 4. Plug an MicroSD card with all the taps and enjoy the power of the Tapuino!
 
+Update 24/05/2017: If your Atmega328 is blank without bootloader you can take advantage by upload the bootloader and firmware directly to the atmega using an ISP like the USBASP. On the ISP folder there is a hex file that include the bootloader plus the firmware (tapuino) for oled screens.
+
  
 
 # Bill of materials
