@@ -26,7 +26,8 @@ Update 24/05/2017: If your Atmega328 is blank without bootloader you can take ad
 | Part          | Value                   | Package                        |
 | ------------- | ----------------------- | ------------------------------ | 
 | C1            | 10uF/10V                | A/3216-18R                     |
-| C2            | 0.1uF                   | C0805K                         |
+| C2            | 0.1uF                   | C0805                          |
+| C3            | 100nF                   | C0805                          |
 | C13           | 22p                     | C0805                          |
 | C14           | 22p                     | C0805                          |
 | CON1          | CONECTOR_C64_DATASSETTE | 2x6 C64_CONNECTOR (pin version)|
