@@ -16,6 +16,8 @@ This new version has completely reworked with smd components. Also change the di
 2. Set the display hardware address on the config-user.h depending on what kind of display have. If does not work, use a i2c scanner in order to get the exact hardware address from the display.
 3. Use a serial TTL programmer and the Arduino IDE to upload the code into the ATMEGA.
 4. Plug an MicroSD card with all the taps and enjoy the power of the Tapuino!
+5. In case we use the hex file to clon and flash many Tapuino devices we need to set the fuses with the avrdude. Fuses are lfuse = 0xff
+hfuse = 0xde, efuse = 0x05
 
 # Updates
 
