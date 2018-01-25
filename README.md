@@ -29,7 +29,7 @@ The same as 0.2, except that you don't need to apply fuses on the Arduino Pro Mi
 | Part          | Value                   | Package                        |
 | ------------- | ----------------------- | ------------------------------ |          
 | ABORT1  		| Button                  | B3F-31XX                       |
-| ACT     		| RED                     | CHIP-LED0805                   |
+| ACT     		| SMD led                 | CHIP-LED0805                   |
 | C3      		| 22UF                    | 0805                           |
 | C4      		| 22UF                    | 0805                           |
 | CON1    		| CONECTOR_C64_DATASSETTE | CONECTOR_C64_DATASSETTE        |
