@@ -2,6 +2,61 @@
 
 By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the original design of Peter Edwards.
 
+# Updates
+
+25/01/2018: New version has born :)
+
+03/06/2017: Add DTR signal on the TTL programming port.
+
+24/05/2017: If your Atmega328 is blank without bootloader you can take advantage by upload the bootloader and firmware directly to the atmega using an ISP like the USBASP. On the ISP folder there is a hex file that include the bootloader plus the firmware (tapuino) for oled screens.
+
+# Version 0.3
+
+This new version include the footprint of the Arduino Pro Mini, so you just have to buy a module with compatible footprint and solder it on the PCB. Some of the components has been changed to an better position and some others replaced (please refer to the BOM). Remember, you just plug the Tapuino Reloaded on the back of your C64 (Breadbox & C) and that's it. This design also allows to use every type of i2c LCD or OLED Screen, by soldering a 1x4 row pin and taking out the lcd to a better viewable area, for example on computers like the Commodore PET.
+
+# Images
+
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu03front.png?raw=true" width="700">
+
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu03back.png?raw=true" width="700">
+
+# Instructions
+
+The same as 0.2, except that you don't need to apply fuses on the Arduino Pro Mini.
+
+# Bill of materials
+
+| Part          | Value                   | Package                        |
+| ------------- | ----------------------- | ------------------------------ |          
+| ABORT1  		| Button                  | B3F-31XX                       |
+| ACT     		| RED                     | CHIP-LED0805                   |
+| C3      		| 22UF                    | 0805                           |
+| C4      		| 22UF                    | 0805                           |
+| CON1    		| CONECTOR_C64_DATASSETTE | CONECTOR_C64_DATASSETTE        |
+| IC1     		| 4050D                   | SO16                           |
+| IC2     		| REG1117 3v3             | SOT223                         |
+| ISP1    		| AVR_SPI_PRG_6PTH        | 2X3                            |
+| M2      		| ARDUINO-PRO-MINI-3.3V   | ARDUINO-PRO-MINI               |
+| NEXT1   		| Button                  | B3F-31XX                       |
+| OK2     		| 4N25M                   | DIL06                          |
+| OLED    		| Connector for Screen    | 1X04_ROUND                     |
+| POWER   		| SMD led                 | CHIP-LED0805                   |
+| PREV1   		| Button                  | B3F-31XX                       |
+| Q1      		| 2N2222                  | SOT-23                         |
+| Q2      		| 2N2222                  | SOT-23                         |
+| R1      		| 1K                      | R0805                          |
+| R2      		| 1K                      | R0805                          |
+| R5      		| 330                     | R0805                          |
+| R7      		| 120                     | R0805                          |
+| R9      		| 1K                      | R0805                          |
+| SD1     		| TF-HOLDER               | TF-PULL                        |
+| SELECT1 		| Button                  | B3F-31XX                       |
+| TTL1    		| Connector               | 1X04_ROUND                     |
+
+#--------------------------------------------------------------------------------------------------------------------------------------
+
+# Version 0.2
+
 This new version has completely reworked with smd components. Also change the distribution and connection orientation. Now, you just plug the Tapuino Reloaded on the back of your C64 (Breadbox & C) and that's it. This design also allows to use every type of i2c LCD or OLED Screen, by soldering a 1x4 row pin and taking out the lcd to a better viewable area, for example on computers like the Commodore PET.
 
 # Images
@@ -19,13 +74,6 @@ This new version has completely reworked with smd components. Also change the di
 5. In case we use the hex file to clon and flash many Tapuino devices we need to set the fuses with the avrdude. Fuses are lfuse = 0xff
 hfuse = 0xda, efuse = 0x05
 
-# Updates
-
-03/06/2017: Add DTR signal on the TTL programming port.
-
-24/05/2017: If your Atmega328 is blank without bootloader you can take advantage by upload the bootloader and firmware directly to the atmega using an ISP like the USBASP. On the ISP folder there is a hex file that include the bootloader plus the firmware (tapuino) for oled screens.
-
- 
 
 # Bill of materials
 
