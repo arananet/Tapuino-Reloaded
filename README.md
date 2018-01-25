@@ -12,7 +12,7 @@ By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the orig
 
 # Version 0.3
 
-This new version include the footprint of the Arduino Pro Mini, so you just have to buy a module with compatible footprint and solder it on the PCB. Some of the components has been changed to a better position and some others has been replaced (please refer to the BOM). Remember, you just plug the Tapuino Reloaded on the back of your C64 (Breadbox & C) and that's it. This design also allows to use every type of i2c LCD or OLED Screen, by soldering a 1x4 row pin and taking out the lcd to a better viewable area, for example on computers like the Commodore PET.
+This new version include the footprint of the Arduino Pro Mini, so you just have to buy a module with compatible footprint and solder it on the PCB. Some of the components has been changed to a better position and some others has been replaced (please refer to the BOM). Remember, once you solder and flash the Tapuino, you just plug the Tapuino Reloaded on the back of your C64 (Breadbox & C) and that's it. This design also allows to use every type of i2c LCD or OLED Screen, by soldering a 1x4 row pin and taking out the lcd to a better viewable area, for example on computers like the Commodore PET.
 
 # Images
 
