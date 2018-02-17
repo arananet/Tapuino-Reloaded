@@ -4,6 +4,8 @@ By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the orig
 
 # Updates
 
+17/02/2018: Fixed a issue with the 2n2222. Not required anymore.
+
 25/01/2018: New version has born :)
 
 03/06/2017: Add DTR signal on the TTL programming port.
@@ -42,10 +44,6 @@ The same as 0.2, except that you don't need to apply fuses on the Arduino Pro Mi
 | OLED    		| Connector for Screen    | 1X04_ROUND                     |
 | POWER   		| SMD led                 | CHIP-LED0805                   |
 | PREV1   		| Button                  | B3F-31XX                       |
-| Q1      		| 2N2222                  | SOT-23                         |
-| Q2      		| 2N2222                  | SOT-23                         |
-| R1      		| 1K                      | R0805                          |
-| R2      		| 1K                      | R0805                          |
 | R5      		| 330                     | R0805                          |
 | R7      		| 120                     | R0805                          |
 | R9      		| 1K                      | R0805                          |
