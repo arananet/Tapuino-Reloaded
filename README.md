@@ -31,7 +31,7 @@ International License][cc-by-sa].
 
 # Version 0.41
 
-This new version of the Tapuino-Reloaded uses a Arduino Nano instead of a PRO MINI like the ealier version. Now is more easy to flash and to update firmware since Ardunino Nano includes a in-build programmer. OLED Screen must be 128x32 and pinouts must be GND VCC SCL SDA (if ends with SDK needs a pullups).
+This new version of the Tapuino-Reloaded uses a Arduino Nano instead of a PRO MINI like the ealier version. Now is more easy to flash and to update firmware since Ardunino Nano includes a in-build programmer. OLED Screen must be 128x32 and pinouts must be GND VCC SCL SDA (if ends with SDK needs a pullups). Added properly decoupling caps. Manually routed.
 
 # Images
 
