@@ -29,6 +29,12 @@ International License][cc-by-sa].
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
+# Note
+
+This is a work in progress, several testing must be made but it should work as is. I take no responsibiltiy for any damage to any equipment that results from the use of this board. USE AT YOUR OWN RISK!
+
+If you like the project, buy me a beer :) info@arananet.net
+
 # Version 0.41
 
 This new version of the Tapuino-Reloaded uses a Arduino Nano instead of a PRO MINI like the ealier version. Now is more easy to flash and to update firmware since Ardunino Nano includes a in-build programmer. OLED Screen must be 128x32 and pinouts must be GND VCC SCL SDA (if ends with SDK needs a pullups). Added properly decoupling caps. Manually routed.
