@@ -1,8 +1,12 @@
 # Tapuino-Reloaded
 
-By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the original design of Peter Edwards.
+Designed in 2017 By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the original schematic design of Peter Edwards.
 
 # Updates
+
+12/11/2019: Updated license stuff (I usually not do this but I must start it with this).
+
+12/11/2019: Released version 0.41 using Arduino Nano and 128x32 oled screen.
 
 17/02/2018: Fixed a issue with the 2n2222. Not required anymore.
 
@@ -12,15 +16,62 @@ By @edu_arana in collaboration with @groovydrifter & @jgilcas. Based on the orig
 
 24/05/2017: If your Atmega328 is blank without bootloader you can take advantage by upload the bootloader and firmware directly to the atmega using an ISP like the USBASP. On the ISP folder there is a hex file that include the bootloader plus the firmware (tapuino) for oled screens.
 
+# License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+# Version 0.41
+
+This new version of the Tapuino-Reloaded uses a Arduino Nano instead of a PRO MINI like the ealier version. Now is more easy to flash and to update firmware since Ardunino Nano includes a in-build programmer. OLED Screen must be 128x32 and pinouts must be GND VCC SCL SDA (if ends with SDK needs a pullups).
+
+# Images
+
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu04.png?raw=true" width="500">
+
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu04_back.png?raw=true" width="500">
+
+# Bill of materials
+
+| Part          | Value                   | Package                        |
+| ------------- | ----------------------- | ------------------------------ |          
+| ABORT1  		| Button                  | B3F-31XX                       |
+| ACT     		| SMD led                 | CHIP-LED0805                   |
+| C1      		| 100nf                    | 0805                           |
+| C2      		| 100nf                    | 0805                           |
+| CON1    		| CONECTOR_C64_DATASSETTE | CONECTOR_C64_DATASSETTE        |
+| IC1     		| 4050D                   | SO16                           |
+| M2      		| ARDUINO-NANO            | ARDUINO-NANO-3.0               |
+| NEXT1   		| Button                  | B3F-31XX                       |
+| OK2     		| 4N25M                   | DIL06                          |
+| OLED    		| Connector for Screen    | 128x32 OLED SCREEN             |
+| POWER   		| SMD led                 | CHIP-LED0805                   |
+| PREV1   		| Button                  | B3F-31XX                       |
+| R5      		| 330                     | R0805                          |
+| R7      		| 1k                      | R0805                          |
+| R9      		| 1K                      | R0805                          |
+| SD1     		| TF-HOLDER               | TF-PULL                        |
+| SELECT1 		| Button                  | B3F-31XX                       |
+
+#--------------------------------------------------------------------------------------------------------------------------------------
+
 # Version 0.3
 
 This new version include the footprint of the Arduino Pro Mini, so you just have to buy a module with compatible footprint and solder it on the PCB. Some of the components has been changed to a better position and some others has been replaced (please refer to the BOM). Remember, once you solder and flash the Tapuino, you just plug the Tapuino Reloaded on the back of your C64 (Breadbox & C) and that's it. This design also allows to use every type of i2c LCD or OLED Screen, by soldering a 1x4 row pin and taking out the lcd to a better viewable area, for example on computers like the Commodore PET.
 
 # Images
 
-<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu03front.png?raw=true" width="700">
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu03front.png?raw=true" width="500">
 
-<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu03back.png?raw=true" width="700">
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu03back.png?raw=true" width="500">
 
 # Instructions
 
@@ -51,8 +102,6 @@ The same as 0.2, except that you don't need to apply fuses on the Arduino Pro Mi
 | SELECT1 		| Button                  | B3F-31XX                       |
 | TTL1    		| Connector               | 1X04_ROUND                     |
 
-If you like the project, buy me a paypal beer :p 
-
 #--------------------------------------------------------------------------------------------------------------------------------------
 
 # Version 0.2
@@ -61,9 +110,9 @@ This new version has completely reworked with smd components. Also change the di
 
 # Images
 
-<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapuinoreloaded.png?raw=true" width="700">
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapuinoreloaded.png?raw=true" width="500">
 
-<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/TapuinoReloadedreal.jpg?raw=true" width="700">
+<img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/TapuinoReloadedreal.jpg?raw=true" width="500">
 
 # Instructions
  
