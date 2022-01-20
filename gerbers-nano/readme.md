@@ -3,7 +3,8 @@
 File description:
 
 tapureloaded_arduinonano.042_2022-01-20.zip last version.
-tapureloaded_nano.zip version 0.41
+
+tapureloaded_nano.zip version 0.41.
 
 ## Possible fix for 'Card not initialized' on version 0.41
 
