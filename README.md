@@ -4,7 +4,7 @@ Designed in 2017 By @edu_arana in collaboration with @groovydrifter & @jgilcas. 
 
 # Updates
 
-20/01/2021: There might be a problem with pin 8 on the SD card buffer. If PCB manufacturer does not populate a required via to make pin 8 from the HC4050 to GND, this could produce a problem with SD card detection. If you have a multimeter, try to measure pin 8 from the HC4050 to GND, if you have continuity then the SD Card detection might be elsewhere, if not, to fix this, try to solder pin 8 to pin 2 of the octocoupler (GND). Find the instruction on how to fix this on the GERBERS-NANO directory. Thanks to the user Alleged-Geek for point this out.
+20/01/2021: There might be a problem with pin 8 on the SD card buffer. If PCB manufacturer does not populate a required via to make pin 8 from the HC4050 to GND, this could produce a problem with SD card detection. If you have a multimeter, try to measure pin 8 from the HC4050 to GND, if you have continuity then the SD Card detection or initialization problem might be elsewhere, if not, to fix this, try to solder pin 8 to pin 2 of the octocoupler (GND). Find the instruction on how to fix this on the GERBERS-NANO directory. Thanks to the user Alleged-Geek for point this out.
 
 12/11/2019: Updated license stuff (I usually not do this but I must start it with this).
 
