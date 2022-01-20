@@ -52,7 +52,7 @@ For the awesome review of the Tapuino Reloaded.
 
 # Version 0.42
 
-Includes a reinforcement on the pin 8 of the 4050 buffer and another OLED position to use 0.96 128x64 oled display.
+Includes a reinforcement on the pin 8 of the 4050 buffer and another OLED position to use 0.96 128x64 oled display. The BOM is the same as the 0.41 version.
 
 <img src="https://github.com/arananet/Tapuino-Reloaded/blob/master/images/tapu042_1.png?raw=true" width="500">
 
