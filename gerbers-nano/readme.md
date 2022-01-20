@@ -2,7 +2,7 @@
 
 File description:
 
-tapureloaded_arduinonano.042_2022-01-20.zip last version.
+tapureloaded_arduinonano.042 last version.
 
 tapureloaded_nano.zip version 0.41.
 
