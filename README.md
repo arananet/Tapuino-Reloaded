@@ -4,6 +4,10 @@ Designed in 2017 By @edu_arana in collaboration with @groovydrifter & @jgilcas. 
 
 # Updates
 
+20/01/2021: There might be a problem with pin 8 on the SD card buffer. If PCB manufacturer does not populate a required via to make pin 8 from the HC4050 to GND there might be a problem with SD card detection. To fix this, try to solder pin 8 to pin 2 of the octocoupler (GND). Find the instruction on how to fix this on the GERBERS-NANO directory.
+
+Thanks to the user Alleged-Geek for point this out.
+
 12/11/2019: Updated license stuff (I usually not do this but I must start it with this).
 
 12/11/2019: Released version 0.41 using Arduino Nano and 128x32 oled screen.
